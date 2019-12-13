@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/*Article Styles*/
+.content1 img {
+      float: right;     /* Float  Layout*/
+      width: 40%;
+      padding: 10px;
+}
+
+.content2 img {
+      float: left;      /* Float  Layout*/
+      width: 40%;
+      padding: 10px;
+}
+
+.content1 p,
+.content2 p {
+      font-size: 0.8em;       /* 2 of 2 absolute units */   
+}
+
+article .content2 h3{   /* 3 of 5 contextual selectors*/
+      text-align: right;
+      margin-right: 35px;
+}
+
+/*List styles*/
+
+ul#menu li a:link,            /* 1 of 5 pseudo-elements*/
+ul#menu li a:visited,         /* 2 of 5 pseudo-elements*/
+ol#resources li a:link,
+ol#resources li a:visited {
+      color: green;
+}
+
+ul#menu li a:hover,     /* 3 of 5 pseudo-elements*/
+ul#menu li a:active {   /* 4 of 5 pseudo-elements*/
+      color: white;
+}
+
+ol#resources li a:hover,
+ol#resources li a:active {
+      color: pink;
+}
+

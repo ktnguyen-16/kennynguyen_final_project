@@ -1,0 +1,94 @@
+1. You must add an id attribute to at least 5 different elements, and a class attribute to at least 5 different elements
+
+      5 id attribute
+      - line 23 of index.html
+      - line 31 of index.html
+      - line 43 of nSuns.html
+      - line 45 of nSuns.html
+      - line 46 of reviews.html
+
+      5 class attribute
+      - line 15 of index.html
+      - line 48 of index.html
+      - line 62 of index.html
+      - line 45 of ppl.html
+      - line 55 of ppl.html
+
+2. CSS Selectors: Use at least 5 different contextual selectors in your css files (e.g. section p{ … }, section>h1{…} )
+
+      - line 3 of layout.css
+      - line 11 of layout.css
+      - line 21 of index_styles.css
+      - line 4 of ppl_styles.css
+      - line 15 of ppl_styles.css
+
+3. Use ids or classes in 3 different selectors in your CSS files(e.g. #unique {….})
+
+      - line 35 of layout.css
+      - line 40 of layout.css
+      - line 50 of layout.css
+
+
+4. Use the box model: at least 5 different CSS selectors must apply one or more of margin, padding, or border styles to some HTML elements
+
+      - line 27 of layout.css
+      - line 43 of layout.css
+      - line 78 of layout.css
+      - line 85 of layout.css
+      - line 37 of reviews_styles.css
+
+5. One of your sites needs to be implemented with grid layout
+
+      - line 25 of layout.css
+      - line 32 of layout.css
+      - line 77 of layout.css
+      - line 83 of layout.css
+
+
+6. One of your sites(or part of your site) needs to be implemented with float-based layout
+
+      - line 5 of index_styles.css
+      - line 11 of index_styles.css
+
+
+7. Use at least 5 different pseudo-class or pseudo-elements
+
+      - line 28 of index_styles.css
+      - line 29 of index_styles.css
+      - line 35 of index_styles.css
+      - line 36 of index_styles.css
+      - line 44 of reviews_styles.css
+
+
+8. Make the font color different for all pages
+
+      - line 6 of ppl_styles.css
+      - line 20 of nSuns_styles.css
+      - line 24 of reviews_styles.css
+
+
+9. Use 2 or more of absolute units and 2 or more of relative units(i.e. viewport unit(vw, vh, vmin, vmax) or em or px) for font-size or padding/margin space, etc.
+
+      - line 4 of layout.css
+      - line 18 of index_styles.css
+
+10. Use the google fonts
+
+      - line 5 of ppl_styles.css
+      - line 7 of nSuns_styles.css
+      - line 30 of reviews_styles.css
+
+11. Have a navigation menu to link the pages each other
+
+       - line 21 to 42 of index.html
+
+12. Minimum 3 images on each page
+
+
+13. For at least one page, use an image for the icon image of the list
+
+      - line 24 of index.html
+
+14. Have a layout.css file to put the rules of layout
+
+      - layout.css file

@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/*Article Styles*/
+article {   /* 4 of 5 contextual selectors*/
+      font-family: 'Raleway', sans-serif;       /* google fonts */
+      color: rgb(95, 37, 153);            /* Different font color */
+}
+
+article p:first-of-type::first-letter {
+      font-size: 3em;
+      font-family: serif;
+      line-height: 0.8em;
+}
+
+article p {       /* 5 of 5 contextual selectors*/
+      padding: 20px;
+}
+
+.push img {
+      width: 35%;
+      padding: 20px;
+      float: left;      /* Float  Layout*/
+
+}
+
+.pull img {
+      padding: 20px;
+      width: 37%;
+      float: right;     /* Float  Layout*/
+}
+
+.legs img {
+      padding: 20px;
+      width: 40%;
+      float: left;      /* Float  Layout*/
+}

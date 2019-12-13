@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+html {      /* 1 of 5 contextual selectors*/
+      font-size: 1.3vw;       /* 1 of 2 absolute units */                                           
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      width: 100%;
+      background: radial-gradient(circle, rgba(174, 238, 185, 1) 0%, rgba(148, 187, 233, 1) 100%);
+
+}
+
+hr {        /* 2 of 5 contextual selectors*/
+      display: block;
+      height: 1px;
+      border: 0;
+      border-top: 3px solid black;
+      margin: 1em 0;
+      padding: 0;
+}
+
+.container {
+      background: rgba(0, 0, 0, 0.199);
+      border: 3px solid black;
+      border-radius: 15px;
+      display: grid;
+      grid-template-columns: 1fr 4fr 1fr;       /* Grid Layout*/
+      width: 70%;
+      margin: auto;     /* 2 of 5 box model*/
+}
+
+/*Header layout*/
+.container header {
+      grid-column: 1/4;       /* Grid Layout*/
+}
+
+.container header h1 {        /* 1 of 3 id/class selectors*/
+      text-align: center;
+}
+
+
+.container header img {       /* 1 of 3 id/class selectors*/
+      max-width: 100%;
+      display: block;
+      margin-left: auto;      /* 2 of 5 box model*/
+      margin-right: auto;
+      width: 40%;
+}
+
+
+/*Nav Menu layout*/
+.container nav a {           /* 1 of 3 id/class selectors*/
+      text-decoration: none;
+}
+
+.container nav li {
+      font-size: 1vw;
+      list-style: none;
+      padding-bottom: 15px;
+}
+
+
+ul#menu li>img {
+      width: 15%;
+      margin-right: auto;
+      margin-left: auto;
+      padding-left: 15px;
+}
+
+h5 {
+      text-align: center;
+      font-variant: small-caps;
+}
+
+
+/*Body Layout*/
+.container article,
+.container section {
+      grid-column: 2/4;       /* Grid Layout*/
+      padding: 25px;    /* 3 of 5 box model*/
+}
+
+.container footer {
+      background-color: grey;
+      grid-column: 1/4;             /* Grid Layout*/
+      text-align: center;
+      border: 1px solid black;      /* 4 of 5 box model*/
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+}
+
+footer a {
+      text-decoration: none;
+}

@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/*Nav Menu Styles*/
+ul#menu li a:link,
+ul#menu li a:visited,
+ol#resources li a:link,
+ol#resources li a:visited {
+      color:white;
+}
+
+ul#menu li a:hover,
+ul#menu li a:active {
+      color: blue;
+}
+
+ol#resources li a:hover,
+ol#resources li a:active {
+      color: #B266FF;
+}
+
+/*Review Section Styles*/
+h4 {
+      text-align: center;
+      color: white;           /* Different font color */
+}
+
+ul#reviews {
+      width: 95%;
+      margin: 40px auto;
+      font-family: 'Indie Flower', cursive;           /* google fonts */
+}
+
+ul#reviews li {
+      display: block;
+      width: 45%;
+      float: left;
+      margin: 0px 15px 20px 15px;         /* 5 of 5 box model*/
+      border: 3px solid black;
+      border-radius: 15px;
+      background: rgba(0, 0, 0, 0.5);
+      color: white;
+}
+
+ul#reviews li:nth-child(odd) {      /* 5 of 5 pseudo-elements*/
+      color: #81cfff;
+      display: block;
+}
+
+ul#reviews li img {
+      display: block;
+      width: 20%;
+      float: left;
+      margin: 10px 5% 0px 5%;
+}
+
+ul#reviews li p {
+      float: left;
+      width: 60%;
+}
