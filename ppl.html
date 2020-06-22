@@ -8,6 +8,7 @@
       <title>Push Pull Legs Page</title>
       <link rel="stylesheet" href="layout.css">
       <link rel="stylesheet" href="ppl_styles.css">
+      <script src="script.js" async></script>
 </head>
 
 <body>
@@ -15,6 +16,8 @@
             <header>
                   <h1>Fitness Guide</h1>
                   <img src="barbell.png" alt="Barbell">
+                  <h6 id="date"></h6>
+                  <h6 id="time"></h6>
                   <hr>
             </header>
             <nav>
@@ -40,41 +43,39 @@
                   </ol>
             </nav>
             <article>
+                  <button id="textOnly">Text-View</button>
+
                   <h2>What is PPL???</h2>
 
-                  <div class="push">      <!-- 4 of 5 classes -->
+                  <div class="push">
+                        <!-- 4 of 5 classes -->
                         <img src="push.jpg" alt="Push Workout">
-                        <p><strong>Push</strong> lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum voluptate expedita
-                              neque
-                              ipsa eveniet autem aliquid culpa at, aut illo beatae rem, ratione deleniti quasi, adipisci
-                              quos
-                              itaque ducimus id tempore? Ullam dolor earum maxime perferendis odit tempore adipisci
-                              vitae
-                              maiores, eos minima eius fugit sed, quisquam optio enim accusamus.</p>
+                        <p><strong>Push</strong> day is mostly upperbody training your muscles through a push motion.
+                              Some examples of these exercises are bench press, dumbell press, overhad press, triceps,
+                              lateral raies, dips, and arnod press. </p>
                   </div>
-                  <div class="pull">      <!-- 5 of 5 classes -->
+                  <div class="pull">
+                        <!-- 5 of 5 classes -->
                         <img src="deadlift.webp" alt="Pull Workout">
-                        <p><strong>Pull</strong> lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat voluptas consectetur
-                              odit?
-                              Repellat nobis ratione dignissimos in, atque magni cum blanditiis culpa et eum ea dolore.
-                              Vitae
-                              laboriosam vel aspernatur? Non repellendus maiores vel dignissimos nihil enim, dolorum
-                              aliquid
-                              nisi suscipit? Iusto quaerat numquam nesciunt provident quae ipsam architecto dicta!</p>
+                        <p><strong>Pull</strong> day is mostly upperbody training your muscles through a pull motion.
+                              Some examples of these exercises are deadlift, barbell row, cable row, dumbell curls,
+                              hammer curls, shrugs, farmers walks, and lat pull down. </p>
                   </div>
                   <div class="legs">
                         <img src="legs.jpg" alt="Leg Workout">
-                        <p><strong>Legs</strong> lorem ipsum dolor sit amet consectetur adipisicing elit. Alias temporibus delectus fugit
-                              ipsam
-                              beatae voluptas molestiae quo distinctio, ut exercitationem? Odio optio voluptatem non
-                              laboriosam rem sit commodi sed facere!</p>
+                        <p><strong>Legs</strong> is a lower body day to train the quads, hamstrings, glutes, and calves.
+                              Some examples of these exercises are squats, leg press, leg extension, hamstring curls,
+                              glute bridges, lunges, and hip thrusts.</p>
                   </div>
 
             </article>
 
             <footer>
-                  Don't forget to contact us for any questions <a href="mailto: abc@example.com">email us!</a>
+                  &#169; Fitness Guide Inc | Contact: <a href="mailto: abc@example.com">email</a>
             </footer>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"></script>
 
 </html>

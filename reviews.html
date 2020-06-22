@@ -8,6 +8,9 @@
       <title>Reviews Page</title>
       <link rel="stylesheet" href="layout.css">
       <link rel="stylesheet" href="reviews_style.css">
+      <link rel="stylesheet" href="reviews_style.css">
+      <script src="script.js" async></script>
+      <script src="reviews.js" async></script>
 </head>
 
 <body>
@@ -15,6 +18,8 @@
             <header>
                   <h1>Fitness Guide</h1>
                   <img src="barbell.png" alt="Barbell">
+                  <h6 id="date"></h6>
+                  <h6 id="time"></h6>
                   <hr>
             </header>
             <nav>
@@ -43,48 +48,68 @@
 
                   <h4>Real People Real Reviews</h4>
 
-                  <ul id="reviews">       <!-- 5 of 5 id's -->
+                  <ul id="reviews">
+                        <!-- 5 of 5 id's -->
                         <li><img src="person1.png" alt="" />
-                              <p>&ldquo;Thanks to <em>nSuns &amp; PPL</em> lorem ipsum dolor sit amet consectetur
-                                    adipisicing.&rdquo;<br />
-                                    <br />
-                                    &mdash; Kevin, Utah</p>
+                              <p></p>
                         </li>
                         <li><img src="person2.png" alt="" />
-                              <p>&ldquo;I use <em>PPL &amp; nSuns</em> Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Dolore, assumenda.&rdquo;<br />
-                                    <br />
-                                    &mdash; Paul, Texas</p>
+                              <p></p>
                         </li>
                         <li><img src="person3.png" alt="" />
-                              <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis sequi
-                                    aperiam eos.!&rdquo;<br />
-                                    <br />
-                                    &mdash; Lisa, Florida</p>
+                              <p></p>
                         </li>
                         <li><img src="person4.png" alt="" />
-                              <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam modi ipsam
-                                    inventore.&rdquo;<br />
-                                    <br />
-                                    &mdash; Karen, Nebraska</p>
+                              <p></p>
                         </li>
                         <li><img src="person5.png" alt="" />
-                              <p>&ldquo;<em>I've seen a great improvement</em> Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit..&rdquo;<br />
-                                    <br />
-                                    &mdash; Gianna, Vermont</p>
+                              <p></p>
                         </li>
                         <li><img src="person6.png" alt="" />
-                              <p>&ldquo;After using <em>PPL &amp; nSuns</em>, Lorem ipsum dolor sit, amet consectetur
-                                    adipisicing elit.&rdquo;<br />
-                                    <br />
-                                    &mdash; Todd, Illinois</p>
+                              <p></p>
                         </li>
+
+                        <!-- #10 create a form--->
+                        <div id="userForm">
+                              <form id="questionForm" method="GET" action="reviews.html">
+                                    <label for="fullname">Full Name: </label>
+                                    <input id="fullname" name="fullname" required type="text" />
+                                    <br>
+                                    <label for="telephone">Telephone # (format: xxx-xxx-xxxx)</label>
+                                    <input required type="text" id="telephone" name="telephone"
+                                          pattern="^\d{3}-\d{3}-\d{4}$" />
+                                    <br>
+                                    <label for="weekday">Choose the best day for us to contact you</label>
+                                    <select name="weekDays" id="weekDays">
+                                          <option value="0">Days List</option>
+                                          <option value="Sunday">Sunday</option>
+                                          <option value="Monday">Monday</option>
+                                          <option value="Tuesday">Tuesday</option>
+                                          <option value="Wednesday">Wednesday</option>
+                                          <option value="Thursday">Thursday</option>
+                                          <option value="Friday">Friday</option>
+                                          <option value="Saturday">Saturday</option>
+                                    </select>
+                                    <br>
+                                    <label for="questions">Questions or Comments</label><br>
+                                    <textarea name="questions" id="questions" cols="" rows="10" required></textarea>
+                                    <input type="submit" value="Submit" id="subButton">
+                                    
+                              </form>
+                              <button id="reset">Reset Form</button>
+                        </div>
+
+
             </section>
 
             <footer>
-                  Don't forget to contact us for any questions <a href="mailto: abc@example.com">email us!</a>
+                  &#169; Fitness Guide Inc | Contact: <a href="mailto: abc@example.com">email</a>
             </footer>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"></script>
+
+
 
 </html>

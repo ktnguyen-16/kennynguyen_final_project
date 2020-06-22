@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+html {
+      color: white;
+      background: #404040;
+}
+
+article,
+article h2,
+article p {
+      color: white;
+}
+
+
+
+ul#menu li a:link,
+ul#menu li a:visited,
+ol#resources li a:link,
+ol#resources li a:visited {
+      color: white;
+}
+
+.bold{
+      font-weight: bold;
+}

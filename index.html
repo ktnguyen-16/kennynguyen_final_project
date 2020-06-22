@@ -8,19 +8,30 @@
       <title>Fitness Page Home</title>
       <link rel="stylesheet" href="index_styles.css">
       <link rel="stylesheet" href="layout.css">
+      <script src="script.js" async></script>
+      <!--<link rel="stylesheet" href="ss_insert.css">-->
 </head>
 
 <body>
 
-      <div class="container">       <!-- 1 of 5 classes -->
+      <div class="container">
+            <!-- 1 of 5 classes -->
             <header>
                   <h1>Fitness Guide</h1>
-                  <img src="barbell.png" alt="Barbell">     
-                  <hr>
+                  <img src="barbell.png" alt="Barbell">
+                  <div id="dateTime">
+                  <h6 id="date"></h6>
+                  <h6 id="time"></h6>
+                  </div>
+                  <hr>          
             </header>
+
+
             <nav>
+                  <h5 id="dateTime"></h5>
                   <h5>Menu</h5>
-                  <ul id="menu">    <!-- 1 of 5 id's -->
+                  <ul id="menu">
+                        <!-- 1 of 5 id's -->
                         <li><a href="index.html">Home</a><img src="home_icon.png" alt="Home"></li>
                         <li><a href="ppl.html">PPL</a></li>
                         <li><a href="nSuns.html">nSuns</a></li>
@@ -28,7 +39,8 @@
                   </ul>
 
                   <h5>Resources</h5>
-                  <ol id="resources">     <!-- 2 of 5 id's -->
+                  <ol id="resources">
+                        <!-- 2 of 5 id's -->
                         <li><a href="#">Wiki</a></li>
                         <li><a href="#">Men's Fitness</a></li>
                         <li><a href="#">Women's Health</a></li>
@@ -42,50 +54,56 @@
             </nav>
 
             <article>
+                  <button id="textOnly">Text-View</button>
 
                   <h3>Welcome one welcome all!</h3>
 
-                  <div class="content1">        <!-- 2 of 5 classes -->
-                  <img src="fitness2.jpeg" alt="Stretching">
+                  <div class="content1">
+                        <!-- 2 of 5 classes -->
+                        <img src="fitness2.jpeg" alt="Stretching">
 
-                  <p><strong>People of all ages</strong> lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio
-                        ratione obcaecati impedit tempora rerum sed cum quidem provident quod facilis architecto nisi,
-                        debitis sint nemo temporibus repudiandae repellat laborum. Ipsum, obcaecati alias, aperiam
-                        dolore minus quam ducimus ut quibusdam blanditiis exercitationem minima porro, velit tempore
-                        dignissimos maxime tenetur praesentium. Omnis non nulla totam ratione ea temporibus nisi,
-                        adipisci possimus labore earum aliquam exercitationem deleniti, ex officiis incidunt quod!
-                        Iusto, fuga!</p>
+                        <p><strong>People of all ages</strong> exercise is good for you no matter how old you are. It
+                              helps children function better in school. It helps boost brain
+                              power as you age. It helps prevent falling when you are older. There is a place for
+                              exercise at every stage of a
+                              person’s life</p>
                   </div>
 
                   <h3>Motivation!</h3>
 
-                  <div class="content2">        <!-- 3 of 5 classes -->
-                  <img src="fitness1.jpg" alt="Yoga Pose">
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet magnam reprehenderit inventore
-                        repellendus accusamus fugiat tempore. A expedita, illo et ipsam dicta consequuntur incidunt ab
-                        fuga, quaerat atque, recusandae hic. Est laboriosam ipsum, quia esse hic recusandae ullam
-                        similique voluptatibus dolorum veritatis quasi sint obcaecati. Ipsa cum iure nobis, culpa hic
-                        aliquam veniam, sint dolorum neque deleniti dignissimos cupiditate est pariatur ducimus maxime,
-                        velit deserunt reiciendis ea voluptatem odit. Dolorum!</p>
-                        
-                  <h3>Don't forget to strech!</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ad nisi asperiores deleniti minus
-                        distinctio eaque neque repellat exercitationem culpa molestias expedita voluptatibus porro
-                        dolores debitis eius dolorem vero, illo impedit at nostrum ipsa itaque animi. Vitae incidunt
-                        quas esse dignissimos rem ullam, cumque ex, error adipisci doloremque eos iste.</p>
+                  <div class="content2">
+                        <!-- 3 of 5 classes -->
+                        <img src="fitness1.jpg" alt="Yoga Pose">
+                        <p>Motivation is what drives us to maintain or achieve goals.
+                              It is a form of desire. You should exercise,
+                              you need to exercise, but do you have a desire for exercise?
+                              For some people, maybe—they
+                              like how it feels to exercise. Exercise is usually thought of as having one end
+                              goal—helping you to lose weight, look better, get strong, feel better,
+                              be healthy</p>
+
+                        <h3>Don't forget to strech!</h3>
+                        <p>Everyone can learn to stretch, regardless of age or flexibility. Stretching should be a part
+                              of your daily routine,
+                              whether you exercise or not. It does not have to involve a huge amount of time, but
+                              stretching can end up giving you
+                              huge results!</p>
                   </div>
 
-                  
+
             </article>
 
-            
+
 
             <footer>
-                  Don't forget to contact us for any questions <a href="mailto: abc@example.com">email us!</a>
+                  &#169; Fitness Guide Inc | Contact: <a href="mailto: abc@example.com">email</a>
             </footer>
 
 
       </div>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"></script>
 
 </html>

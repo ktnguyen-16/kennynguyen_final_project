@@ -34,6 +34,7 @@ hr {        /* 2 of 5 contextual selectors*/
 
 .container header h1 {        /* 1 of 3 id/class selectors*/
       text-align: center;
+      
 }
 
 
@@ -68,6 +69,19 @@ ul#menu li>img {
 h5 {
       text-align: center;
       font-variant: small-caps;
+}
+
+
+#date{
+      display: inline;
+      margin: 0px;
+      margin-left: 15px;
+
+}
+#time{  
+      float: right;
+      margin: 0px;
+      margin-right: 15px;
 }
 
 

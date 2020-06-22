@@ -8,6 +8,8 @@
       <title>nSuns Page</title>
       <link rel="stylesheet" href="layout.css">
       <link rel="stylesheet" href="nSuns_style.css">
+      <script src="script.js" async></script>
+      <script src="nSuns.js" async></script>
 </head>
 
 <body>
@@ -15,6 +17,8 @@
             <header>
                   <h1>Fitness Guide</h1>
                   <img src="barbell.png" alt="Barbell">
+                  <h6 id="date"></h6>
+                  <h6 id="time"></h6>
                   <hr>
             </header>
             <nav>
@@ -27,7 +31,7 @@
                   </ul>
 
                   <h5>Resources</h5>
-                  <ol id="resources">     
+                  <ol id="resources">
                         <li><a href="#">Wiki</a></li>
                         <li><a href="#">Men's Fitness</a></li>
                         <li><a href="#">Women's Health</a></li>
@@ -40,31 +44,39 @@
                   </ol>
             </nav>
             <article>
-                  <h2 id="title">What is nSuns???</h2>      <!-- 3 of 5 id's -->
+                  <button id="textOnly">Text-View</button>
 
- <!-- 4 of 5 id's -->   <p><span id="definition">Linear progress with high volume of sets</span> lorem ipsum dolor sit amet
-                        consectetur, adipisicing elit. Fugiat exercitationem excepturi beatae consequatur impedit
-                        doloribus harum officiis praesentium aut libero cupiditate, repellendus minima ullam quas
-                        mollitia totam, sequi sit quasi consequuntur vel non consectetur quae fuga modi! Numquam
-                        aspernatur placeat inventore voluptas consectetur culpa dicta illo voluptatibus itaque magni
-                        quibusdam corporis deserunt, ut qui eos ratione fugit unde, recusandae illum possimus
-                        necessitatibus? Reiciendis a vitae adipisci officiis quia perspiciatis eligendi ullam repellat
-                        odit veritatis laborum, tenetur eius explicabo, laudantium est.</p>
+                  <h2 id="title">What is nSuns???</h2> <!-- 3 of 5 id's -->
 
-                  <img src="programs.png" alt="Program">
+                  <!-- 4 of 5 id's -->
+                  <p><span id="definition">Linear progress with high volume of sets</span> inspired by Jim Wendler’s
+                        5/3/1 strength program. It progresses on a weekly basis, making it well suited for late stage
+                        novice and early intermediate lifters. It is known for its challenging amount of volume. Those
+                        who stick with it tend to find great results from the additional work capacity.</p>
+
+                  <img src="programs.png" alt="Program" class="program">
+                  
+                  <br>
+                  <button id="sample">Click here for a sample week!</button>
+                  <div id="sampleWeek"></div>
 
                   <h2>Download the App!</h2>
 
-                  <img src="nSuns_app.JPG" alt="nSuns App">
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque numquam pariatur eum neque eos
-                        repellat, autem est ratione soluta quaerat amet rerum fugit ad, voluptates, reiciendis aut
-                        deleniti sunt aliquam nihil doloribus. Illo asperiores et nostrum dolores fugit magni itaque!
+                  <div id="appDiv">
+                  <img src="nSuns_app.JPG" alt="nSuns App" class="app" onclick="myApp()" >
+                  </div>
+                  <p>This is a high volume 5 day nSuns variation that contains warm ups, prehab/mobility work, cues for
+                        the major lifts, and much more. Be sure to check out the app!
                   </p>
+                  
             </article>
 
             <footer>
-                  Don't forget to contact us for any questions <a href="mailto: abc@example.com">email us!</a>
+                  &#169; Fitness Guide Inc | Contact: <a href="mailto: abc@example.com">email</a>
             </footer>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"></script>
 
 </html>

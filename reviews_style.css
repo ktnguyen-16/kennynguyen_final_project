@@ -5,7 +5,7 @@ ul#menu li a:link,
 ul#menu li a:visited,
 ol#resources li a:link,
 ol#resources li a:visited {
-      color:white;
+      color: white;
 }
 
 ul#menu li a:hover,
@@ -21,30 +21,36 @@ ol#resources li a:active {
 /*Review Section Styles*/
 h4 {
       text-align: center;
-      color: white;           /* Different font color */
+      color: white;
+      /* Different font color */
 }
 
 ul#reviews {
       width: 95%;
       margin: 40px auto;
-      font-family: 'Indie Flower', cursive;           /* google fonts */
+      font-family: 'Indie Flower', cursive;
+      /* google fonts */
 }
 
 ul#reviews li {
       display: block;
       width: 45%;
       float: left;
-      margin: 0px 15px 20px 15px;         /* 5 of 5 box model*/
+      margin: 0px 15px 20px 15px;
+      /* 5 of 5 box model*/
       border: 3px solid black;
       border-radius: 15px;
       background: rgba(0, 0, 0, 0.5);
       color: white;
 }
 
-ul#reviews li:nth-child(odd) {      /* 5 of 5 pseudo-elements*/
+/*
+ul#reviews li:nth-child(odd) {
+      5 of 5 pseudo-elements
       color: #81cfff;
       display: block;
-}
+}*/
+
 
 ul#reviews li img {
       display: block;
@@ -56,4 +62,35 @@ ul#reviews li img {
 ul#reviews li p {
       float: left;
       width: 60%;
+}
+
+#userForm {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+}
+
+input[type=submit], button {
+      width: 100%;
+      background-color: #fdfd96;
+      color: black;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: "Indie Flower", cursive;
+      font-size: large;
+}
+
+textarea {
+      width: 100%;
+}
+
+input[type=text] {
+      width: 20%;
 }
